@@ -1,0 +1,21 @@
+No.     Time               Source                Destination           Protocol Length Info
+     58 22:14:03.853397    172.18.47.36          128.119.245.12        HTTP     493    GET /wireshark-labs/protected_pages/HTTP-wiresharkfile5.html HTTP/1.1 
+
+Frame 58: 493 bytes on wire (3944 bits), 493 bytes captured (3944 bits) on interface 0
+Ethernet II, Src: IntelCor_79:6a:e9 (ac:fd:ce:79:6a:e9), Dst: IETF-VRRP-VRID_53 (00:00:5e:00:01:53)
+Internet Protocol Version 4, Src: 172.18.47.36, Dst: 128.119.245.12
+Transmission Control Protocol, Src Port: 52944, Dst Port: 80, Seq: 1, Ack: 1, Len: 439
+Hypertext Transfer Protocol
+    GET /wireshark-labs/protected_pages/HTTP-wiresharkfile5.html HTTP/1.1\r\n
+    Accept: text/html, application/xhtml+xml, image/jxr, */*\r\n
+    Accept-Language: en-US,en;q=0.8,zh-Hans-CN;q=0.7,zh-Hans;q=0.5,es-ES;q=0.3,es;q=0.2\r\n
+    User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko\r\n
+    Accept-Encoding: gzip, deflate\r\n
+    Host: gaia.cs.umass.edu\r\n
+    Connection: Keep-Alive\r\n
+    Authorization: Basic d2lyZXNoYXJrLXN0dWRlbnRzOm5ldHdvcms=\r\n
+        Credentials: wireshark-students:network
+    \r\n
+    [Full request URI: http://gaia.cs.umass.edu/wireshark-labs/protected_pages/HTTP-wiresharkfile5.html]
+    [HTTP request 1/1]
+    [Response in frame: 60]

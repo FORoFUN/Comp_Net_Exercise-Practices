@@ -1,0 +1,54 @@
+No.     Time               Source                Destination           Protocol Length Info
+     10 21:10:23.857814    172.18.47.36          128.119.245.12        HTTP     419    GET /wireshark-labs/HTTP-wireshark-file1.html HTTP/1.1 
+
+Frame 10: 419 bytes on wire (3352 bits), 419 bytes captured (3352 bits) on interface 0
+Ethernet II, Src: IntelCor_79:6a:e9 (ac:fd:ce:79:6a:e9), Dst: IETF-VRRP-VRID_53 (00:00:5e:00:01:53)
+Internet Protocol Version 4, Src: 172.18.47.36, Dst: 128.119.245.12
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 405
+    Identification: 0x6a96 (27286)
+    Flags: 0x02 (Don't Fragment)
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: TCP (6)
+    Header checksum: 0x7e12 [validation disabled]
+    [Header checksum status: Unverified]
+    Source: 172.18.47.36
+    Destination: 128.119.245.12
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
+Transmission Control Protocol, Src Port: 51141, Dst Port: 80, Seq: 1, Ack: 1, Len: 365
+    Source Port: 51141
+    Destination Port: 80
+    [Stream index: 1]
+    [TCP Segment Len: 365]
+    Sequence number: 1    (relative sequence number)
+    [Next sequence number: 366    (relative sequence number)]
+    Acknowledgment number: 1    (relative ack number)
+    Header Length: 20 bytes
+    Flags: 0x018 (PSH, ACK)
+    Window size value: 32768
+    [Calculated window size: 262144]
+    [Window size scaling factor: 8]
+    Checksum: 0x59f0 [unverified]
+    [Checksum Status: Unverified]
+    Urgent pointer: 0
+    [SEQ/ACK analysis]
+Hypertext Transfer Protocol
+    GET /wireshark-labs/HTTP-wireshark-file1.html HTTP/1.1\r\n
+        [Expert Info (Chat/Sequence): GET /wireshark-labs/HTTP-wireshark-file1.html HTTP/1.1\r\n]
+        Request Method: GET
+        Request URI: /wireshark-labs/HTTP-wireshark-file1.html
+        Request Version: HTTP/1.1
+    Accept: text/html, application/xhtml+xml, image/jxr, */*\r\n
+    Accept-Language: en-US,en;q=0.8,zh-Hans-CN;q=0.7,zh-Hans;q=0.5,es-ES;q=0.3,es;q=0.2\r\n
+    User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko\r\n
+    Accept-Encoding: gzip, deflate\r\n
+    Host: gaia.cs.umass.edu\r\n
+    Connection: Keep-Alive\r\n
+    \r\n
+    [Full request URI: http://gaia.cs.umass.edu/wireshark-labs/HTTP-wireshark-file1.html]
+    [HTTP request 1/1]
+    [Response in frame: 13]
